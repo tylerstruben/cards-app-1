@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit';
 import "@lrnwebcomponents/meme-maker/meme-maker.js";
-import "wasta-card/src/wasta-card.js";
+import "wasta-card/src/my-card.js";
 
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
