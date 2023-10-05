@@ -1,6 +1,9 @@
 import { LitElement, html, css } from 'lit';
 import "@lrnwebcomponents/accent-card/accent-card.js";
 import "@lrnwebcomponents/meme-maker/meme-maker.js";
+import "./../node_modules/wasta-card/src/wasta-card.js"
+import "./../node_modules/wasta-card2/src/my-card.js"
+
 
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -59,34 +62,9 @@ class CardsApp extends LitElement {
 
   render() {
     return html`
-      <main>
       <meme-maker alt="Cat stalking a small toy" image-url="https://cdn2.thecatapi.com/images/9j5.jpg" top-text="I bring you" bottom-text="the death">
       </meme-maker>
-      <meme-maker alt="Cat stalking a small toy" image-url="https://cdn2.thecatapi.com/images/9j5.jpg" top-text="I bring you" bottom-text="the death">
-      </meme-maker>
-        <div class="logo"><img alt="open-wc logo" src=${logo} /></div>
-        <h1>${this.header}</h1>
-
-        <p>Edit <code>src/CardsApp.js</code> and save to reload.</p>
-        <a
-          class="app-link"
-          href="https://open-wc.org/guides/developing-components/code-examples/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code examples
-        </a>
-      </main>
-
-      <p class="app-footer">
-        🚽 Made with love by
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/open-wc"
-          >open-wc</a
-        >.
-      </p>
+      <wasta-card></wasta-card>
     `;
   }
 }
