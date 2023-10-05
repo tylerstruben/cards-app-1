@@ -67,4 +67,4 @@ class CardsApp extends LitElement {
 }
 
 customElements.define('cards-app', CardsApp);
-export { CardsApp };
+
