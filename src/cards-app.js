@@ -1,5 +1,4 @@
 import { LitElement, html, css } from 'lit';
-import "@lrnwebcomponents/accent-card/accent-card.js";
 import "@lrnwebcomponents/meme-maker/meme-maker.js";
 import "./../node_modules/wasta-card/src/wasta-card.js"
 
