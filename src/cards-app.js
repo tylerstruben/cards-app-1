@@ -2,8 +2,6 @@ import { LitElement, html, css } from 'lit';
 import "@lrnwebcomponents/accent-card/accent-card.js";
 import "@lrnwebcomponents/meme-maker/meme-maker.js";
 import "./../node_modules/wasta-card/src/wasta-card.js"
-import "./../node_modules/wasta-card2/src/my-card.js"
-
 
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
