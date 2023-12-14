@@ -59,7 +59,8 @@ class CardsApp extends LitElement {
 
   render() {
     return html`
-      <meme-maker alt="Cat stalking a small toy" image-url="https://cdn2.thecatapi.com/images/9j5.jpg" top-text="I bring you" bottom-text="the death">
+      <meme-maker alt="Cat stalking a small toy" image-url="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/National_Football_League_logo.svg/1200px-National_Football_League_logo.svg.png" top-text="We Are " bottom-text="The Best 
+      ">
       </meme-maker>
       <wasta-card></wasta-card>
     `;
